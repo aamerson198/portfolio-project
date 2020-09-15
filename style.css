@@ -1,0 +1,50 @@
+.navitems {
+  text-align: right;
+  color: red;
+}
+
+body {
+  background-image: url("https://cdn.hipwallpaper.com/i/18/18/a4pf82.jpg");
+  min-height: 100%;
+}
+.about-container {
+  background-color: white;
+  height: 500px;
+  padding: 25px;
+  margin: 60px;
+}
+
+h1 {
+  color: #a0d2eb;
+  color: ;
+  border-bottom: 1px solid grey;
+  padding-bottom: 3px;
+  margin: 5px;
+}
+
+img {
+  float: left;
+  margin: 10px;
+}
+.nav-background {
+  background-color: #a0d2eb;
+  font-size: 25px;
+  color: #eee;
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+
+.footer-bottom {
+  background: #31312c;
+  color: #a0d2eb;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  border-style: solid;
+  border-width: 0.5px 0px 0px 0px;
+  border-color: #a0d2eb;
+}
