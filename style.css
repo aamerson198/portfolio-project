@@ -16,7 +16,6 @@ body {
 
 h1 {
   color: #a0d2eb;
-  color: ;
   border-bottom: 1px solid grey;
   padding-bottom: 3px;
   margin: 5px;
@@ -45,11 +44,28 @@ img {
   left: 0px;
   padding-top: 20px;
   border-style: solid;
-  border-width: 0.5px 0px 0px 0px;
+  border-width: 1px 0px 0px 0px;
   border-color: #a0d2eb;
 }
 
 .my-card {
   margin: 20px;
   padding: 30px;
+}
+
+.portfolio-container {
+  background-color: white;
+  height: 1300px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.img-container {
+  position: absolute;
+  display: inline-block;
+}
+
+.form {
+  display: inline-block;
+  position: fixed;
 }
