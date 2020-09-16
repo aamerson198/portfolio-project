@@ -10,7 +10,7 @@ body {
 .about-container {
   background-color: white;
   height: 500px;
-  padding: 25px;
+  padding: 5px;
   margin: 60px;
 }
 
@@ -29,7 +29,7 @@ img {
 .nav-background {
   background-color: #a0d2eb;
   font-size: 25px;
-  color: #eee;
+  color: black;
   font-weight: bold;
   font-family: "Lora", serif;
 }
@@ -47,4 +47,9 @@ img {
   border-style: solid;
   border-width: 0.5px 0px 0px 0px;
   border-color: #a0d2eb;
+}
+
+.my-card {
+  margin: 20px;
+  padding: 30px;
 }
