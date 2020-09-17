@@ -1,18 +1,18 @@
-.navitems {
-  text-align: right;
-  color: red;
-}
-
+/* Styling for body with gray background image */
 body {
   background-image: url("https://cdn.hipwallpaper.com/i/18/18/a4pf82.jpg");
   min-height: 100%;
 }
+
+/* Container for about page in index with main container */
 .about-container {
   background-color: white;
   height: 500px;
   padding: 5px;
   margin: 60px;
 }
+
+/* Standout text in same color for each page */
 
 h1 {
   color: #a0d2eb;
@@ -21,10 +21,14 @@ h1 {
   margin: 5px;
 }
 
+/* Code for positioning all images  */
+
 img {
   float: left;
   margin: 10px;
 }
+
+/* Custom navbar styling to comply with assignment  */
 .nav-background {
   background-color: #a0d2eb;
   font-size: 25px;
@@ -33,6 +37,7 @@ img {
   font-family: "Lora", serif;
 }
 
+/* styling for footer found on all pages  */
 .footer-bottom {
   background: #31312c;
   color: #a0d2eb;
@@ -47,25 +52,10 @@ img {
   border-width: 1px 0px 0px 0px;
   border-color: #a0d2eb;
 }
-
-.my-card {
-  margin: 20px;
-  padding: 30px;
-}
-
+/* custom css for portfolio pages main container. */
 .portfolio-container {
   background-color: white;
   height: 1300px;
   padding: 2px;
   margin: 5px;
-}
-
-.img-container {
-  position: absolute;
-  display: inline-block;
-}
-
-.form {
-  display: inline-block;
-  position: fixed;
 }
